@@ -4,6 +4,8 @@ group :jekyll_plugins do
   gem 'wdm', '>= 0.1.0'
   gem "bigdecimal"
   gem 'csv'
+  gem "tzinfo", "~> 1.2"
+  gem "tzinfo-data", require: "tzinfo/data"
   gem 'jekyll'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
